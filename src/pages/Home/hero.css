@@ -1,0 +1,83 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  .hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    width: 100%;
+    
+  }
+  
+  .hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1200px;
+  }
+  
+  .profile-content {
+    max-width: 60%;
+  }
+  
+  .profile-content h1 {
+    font-size: 36px;
+    color: #333;
+    margin: 0 0 10px;
+  }
+  
+  .profile-content p {
+    font-size: 18px;
+    color: #777;
+    margin: 0 0 20px;
+  }
+  
+  .download-btn {
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+  }
+  
+  .download-btn:hover {
+    background-color: #ff5a4a;
+  }
+  
+  .profile-image img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+  }
+  @media (max-width: 768px) {
+    .hero-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .profile-content {
+      max-width: 100%;
+      margin-top: 20px;
+    }
+  
+    .profile-image img {
+      width: 150px;
+      height: 150px;
+    }
+  
+    .profile-image {
+      order: -1; 
+    }
+  }
+  

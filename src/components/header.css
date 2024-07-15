@@ -1,0 +1,27 @@
+.header_sect{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    padding: 1rem ;
+    margin: 0 1rem;
+}
+
+
+.header_sect nav ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+.header_sect nav ul .link {
+    text-decoration: none;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+
+nav a.active{
+    color: crimson;
+}
+
